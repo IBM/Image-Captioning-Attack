@@ -36,7 +36,7 @@ Note: Tensorflow 1.3 or later is recommended because `tf.contrib.rnn.BasicLSTMCe
 Clone this directory:
 
 ```
-git clone https://github.com/huanzhang12/ImageCaptioningAttack.git
+git clone https://github.com/IBM/Image-Captioning-Attack.git
 ```
 
 Download pretrained model for Show-and-Tell:
