@@ -34,6 +34,11 @@ import tensorflow as tf
 from im2txt import configuration
 from im2txt import show_and_tell_model
 
+try:
+  xrange
+except NameError:  # Python 3
+  xrange = range
+
 FLAGS = tf.flags.FLAGS
 
 tf.flags.DEFINE_string("input_file_pattern", "",
